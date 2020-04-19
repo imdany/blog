@@ -1,0 +1,42 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Dan's Blog"
+theme = "yinyang"
+
+canonifyURLs  = false
+
+
+[author]
+  name = "Dan"
+  homepage = "http://www.imdany.com/"
+
+
+[languages]
+  [languages.en]
+    contentDir = "content/en/"
+    languageName = "English"
+    weight = 1
+  [languages.es]
+    contentDir = "content/es/"
+    languageName = "Español"
+    weight = 1
+
+[params]
+disqus = "danbl" # disqus account name
+extraHead = ''
+headTitle = "Dan's blog"
+
+[[params.socials]]
+name = "Github"
+link = "https://github.com/imdany/"
+
+[[params.socials]]
+name = "About"
+link = "http://www.imdany.com/"
+
+[outputFormats]
+  [outputFormats.HTML]
+    mediaType = "text/html"
+
+  [outputFormats.CSS]
+    mediaType = "text/css"
